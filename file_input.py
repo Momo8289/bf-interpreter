@@ -1,3 +1,6 @@
+EOF_SYMBOL = 0
+
+
 # https://stackoverflow.com/questions/29991917/indices-of-matching-parentheses-in-python
 def find_parens(s):
     toret = {}
@@ -17,7 +20,6 @@ def find_parens(s):
     return toret
 
 
-EOF_SYMBOL = 0
 
 
 def run(raw, state=None):
